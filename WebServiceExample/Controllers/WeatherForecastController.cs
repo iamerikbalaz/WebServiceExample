@@ -16,7 +16,7 @@ namespace WebServiceExample.Controllers
         public User test()
         {
             User user = new User();
-            user.Name = "Jan Novák";
+            user.Name = "Libor Hájek";
             user.BirthDate = DateTime.Now;
             return user;
         }
@@ -24,7 +24,7 @@ namespace WebServiceExample.Controllers
         [HttpGet("helloworld")]
         public String helloworld()
         {
-            return "Ahoj svìte";
+            return "Ahoj ne";
         }
     }
 }
